@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 90px;
+    width: 100vw;
+}
+div{
+    height: 10px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+
+    
+}
+.radius {
+    background-color: black;
+    border-radius: 800px;
+    height: 10px;
+    width: 100vw;
+    margin: 0 0 20px 850px;
+  
+}
+
+#title > *{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+   }
+
+    
+
+   h2{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 900;
+    font-size: 150%;
+    height: 30px;
+    width: 100vw;
+    margin: 10px 20px 30px 400px;
+   align-items: center;
+}
+
+h1{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 900;
+    font-size: 120px;
+    color:#B88940;
+    font-style: normal;
+    height: 50px;
+    width: 100vw;
+    margin: 20px 20px 40px 400px;
+   align-items: center;
+
+}
+
+.OFF{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 900;
+    font-size:250%;
+    height: 30px;
+    width: 100vw;
+    margin: 10px 20px 10px 400px;
+   align-items: center;
+}
+
+.lorem1{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 150%;
+    height: 50px;
+    width: 100vw;
+    margin: 0px 20px 100px 400px;
+   align-items: center;
+}
+
+section{
+   
+    height: 350px;
+    width: 100vh;
+    margin: 0 0 0 550px;
+   
+}
+
+.image{
+    position: absolute;
+    height: 200px;
+    width: 100vw;
+    margin: 0 100px 100px 750px;
+}
+
+figure{ 
+    display: inline-block;
+}
+
+figcaption{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 150%;
+    text-align: center;
+}
+
+.contenedor{
+    float: left;
+}
+.div{
+       
+    background: #B88940;
+    height: 50px;
+    width: 2200px;
+    margin: 20px 40px 0 40px;
+}
+
+
+
+article{
+    height: 10px;
+    width: 35%;
+    margin: 400px 20px 0 800px;
+    display: flex;
+    flex-direction: row;
+    align-content: end;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+
+.foo{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    clear: both;
+    
+   
+}
+.footertex{
+    color: #B88940;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size:300%;
+    height: 30px;
+    width: 100vw;
+    margin: 300px 200PX 10PX 900PX;
+    align-items: center;
+}
+.footertex2{
+   
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    font-size:100%;
+    height: 30px;
+    width: 100vw;
+    margin: 5px 100PX 100PX 1000PX;
+    align-items: center;
+}
